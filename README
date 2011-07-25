@@ -9,14 +9,14 @@ model.
 Installation
 ============
 
-To install the plugin just install from the SVN:
+To install the plugin just install from the Git:
 
-script/plugin install http://svn.intridea.com/svn/public/acts_as_readable
+rails plugin install git://github.com/tjackiw/acts-as-readable.git
 
 You will need the readings table to use this plugin. A generator has been included,
 simply type
 
-script/generate acts_as_readable_migration
+rails generate acts_as_readable_migration
 
 to get the standard migration created for you.
 
