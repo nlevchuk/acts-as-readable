@@ -1,3 +1,5 @@
+require 'rails/generators'
+
 class ActsAsReadableMigrationGenerator < Rails::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
   argument :migration_name, :type => :string, :default => "acts_as_readable_migration"
